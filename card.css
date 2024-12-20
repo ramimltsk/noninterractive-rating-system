@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color:hsl(216, 12%, 8%) ;
+}
+
+.everything{
+    background-image: linear-gradient(hsl(214, 16%, 20%), hsl(213, 21%, 10%)) ;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.text h2{
+    color: hsl(0, 0%, 100%);
+}
+
+.text p{
+    color: hsl(217, 12%, 63%)
+}
+
+.star{
+    background-color: hsl(215, 10%, 23%);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numbers h3{
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: hsl(215, 10%, 23%);
+    border-radius: 50%;
+    color:hsl(217, 12%, 63%) ;
+}
+
+.submit{
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+}
+
+.sabmit{
+    padding: 10px;
+}
