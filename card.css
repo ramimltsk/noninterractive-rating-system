@@ -1,52 +1,106 @@
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 90vh;
-    background-color:hsl(216, 12%, 8%) ;
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass", serif;
 }
 
-.everything{
-    background-image: linear-gradient(hsl(214, 16%, 20%), hsl(213, 21%, 10%)) ;
+.everything {
+    background-image: linear-gradient(hsl(214, 16%, 20%), hsl(213, 21%, 10%));
     padding: 30px;
     border-radius: 30px;
 }
 
-.text h2{
+.text h2 {
     color: hsl(0, 0%, 100%);
 }
 
-.text p{
+.text p {
     color: hsl(217, 12%, 63%)
 }
 
-.star{
+.star {
     background-color: hsl(215, 10%, 23%);
     padding: 15px;
     border-radius: 50%;
 }
 
-.numbers{
+.numbers {
     display: flex;
     justify-content: space-evenly;
 }
 
-.numbers h3{
+.numbers h3 {
     width: 50px;
     line-height: 50px;
     border-radius: 50%;
     text-align: center;
     background-color: hsl(215, 10%, 23%);
-    border-radius: 50%;
-    color:hsl(217, 12%, 63%) ;
+    color: hsl(217, 12%, 63%);
 }
 
-.submit{
+.numbers h3:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+}
+
+.submit {
     text-align: center;
     background-color: hsl(25, 97%, 53%);
     border-radius: 30px;
 }
 
-.sabmit{
+.submit:hover {
+    background-color: white;
+}
+
+.sabmit {
     padding: 10px;
+}
+
+.numbers .selected {
+    background-color: white;
+    color: black;
+}
+
+.numbers .selected:hover {
+    background-color: white;
+    color: black;
+}
+
+.thankyoustate {
+    display: none;
+    background-image: linear-gradient(hsl(214, 16%, 20%), hsl(213, 21%, 10%));
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    height: 360px;
+}
+
+.thankyoustate img {
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.you-selected {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    margin: auto;
+}
+
+.thank-you {
+    color: white;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.thnk-txt {
+    color: hsl(217, 12%, 63%);
 }

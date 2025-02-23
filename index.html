@@ -1,40 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <link rel="stylesheet" href="card.css">
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
-<body> 
+
+<body>
   <div class="everything">
     <img class="star" src="images/icon-star.svg" alt="">
 
     <div class="text">
       <h2>How did we do?</h2>
-      <p>Please let us know how we did with your support <br> request. All feedback is apprechiated to help us <br> improve our offering!</p>
+      <p>Please let us know how we did with your support <br> request. All feedback is apprechiated to help us <br>
+        improve our offering!</p>
     </div>
 
     <div class="numbers">
-      <h3>1</h3>
-      <h3>2</h3>
-      <h3>3</h3>
-      <h3>4</h3>
-      <h3>5</h3>
+      <h3 class="num1 num-btn">1</h3>
+      <h3 class="num2 num-btn">2</h3>
+      <h3 class="num3 num-btn">3</h3>
+      <h3 class="num4 num-btn">4</h3>
+      <h3 class="num5 num-btn">5</h3>
     </div>
 
     <div class="submit">
       <h3 class="sabmit">SUBMIT</h3>
     </div>
   </div>
+
+
+  <div class="thankyoustate">
+    <img src="images/illustration-thank-you.svg" alt="">
+    <p class="you-selected">You selected <span class="span1"></span> out of 5</p>
+
+    <h1 class="thank-you">Thank you!</h1>
+    <p class="thnk-txt">We appreciate you taking the time to give a rating. <br> if you ever need more support, dont
+      hesitate to <br> getin touch!</p>
+
+  </div>
+
+  <!-- <script src="fwef.js"></script> -->
+
+  <script src="main.js"></script>
 </body>
+
 </html>
